@@ -1,0 +1,6 @@
+FROM httpd:alpine
+
+MAINTAINER steve
+
+RUN apk update 
+RUN apk add git 
